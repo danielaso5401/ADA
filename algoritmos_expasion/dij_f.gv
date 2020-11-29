@@ -1,0 +1,27 @@
+digraph dij_f {
+	rankdir=LR
+	A -> B [label=3]
+	A -> C [label=1]
+	B -> A [label=3]
+	B -> C [label=7]
+	B -> D [label=5]
+	B -> E [label=1]
+	C -> A [label=1]
+	C -> B [label=7]
+	C -> D [label=2]
+	D -> B [label=5]
+	D -> C [label=2]
+	D -> E [label=7]
+	E -> B [label=1]
+	E -> D [label=7]
+	A [label="A
+3" color=red]
+	B [label="B
+5" color=red]
+	C [label="C
+2" color=red]
+	D [label="D
+0" color=red]
+	E [label="E
+6" color=red]
+}
